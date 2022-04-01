@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment Practice 1</title>
+
+    <!-- skeleton cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <head></head>
+
+    <main>
+        <section id="products-panel">
+            <h1>Products List</h1>
+            
+            <div class="products">
+                <div class="product_list" style="display: inline-block; padding: 25px;">
+                    <img src="images/bd1001.jpg" alt="mug-1" style="height: 100px;width: 100px;">
+                    <h6>Product ID : BD1001 <br> BDT 250</h6>
+                    <button class="add_to_cart"> Add to Cart</button>
+                </div>
+
+                <div class="product_list" style="display: inline-block; padding: 25px;">
+                    <img src="images/bd1002.jpg" alt="mug-1" style="height: 100px;width: 100px;">
+                    <h6>Product ID : BD1002 <br> BDT 250</h6>
+                    <button class="add_to_cart"> Add to Cart</button>
+                </div>
+
+                <div style="display: inline-block; padding: 25px;">
+                    <img src="images/bd1003.jpg" alt="mug-1" style="height: 100px;width: 100px;">
+                    <h6>Product ID : BD1003 <br> BDT 250</h6>
+                    <button class="add_to_cart"> Add to Cart</button>
+                </div>
+
+                <div style="display: inline-block; padding: 25px;">
+                    <img src="images/bd1001.jpg" alt="mug-1" style="height: 100px;width: 100px;">
+                    <h6>Product ID : BD1004 <br> BDT 250</h6>
+                    <button class="add_to_cart"> Add to Cart</button>
+                </div>
+            </div> <!-- end of class products-->
+
+            <div class="cart-button">
+                <i class="fa-solid fa-cart-shopping fa-3x" id="cart_icon"></i>
+
+            </div><!-- end of cart-button-->
+        </section> <!-- end of section products panel-->
+
+        <hr>
+
+        <section id="cart-panel">
+            <h1>Your Cart</h1>
+            <p></p>
+            <div id="cart_list">
+                <!-- cart display -->
+            </div>
+            <button id="clear_cart_btn">Clear Cart</button>
+
+        </section>
+    </main>
+
+    <footer></footer>
+
+
+
+
+    <script src="style.js"></script>
+</body>
+</html>
